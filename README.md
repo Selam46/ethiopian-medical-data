@@ -5,39 +5,48 @@ This project collects, processes, and analyzes medical data from Ethiopian Teleg
 ## Project Structure
 
 ethiopian_medical_data/
+│
 ├── src/
-│ ├── api/
-│ │ ├── init.py
-│ │ ├── database.py
-│ │ ├── models.py
-│ │ ├── schemas.py
-│ │ ├── crud.py
-│ │ └── main.py
-│ ├── cleaning/
-│ │ ├── __init__.py
-│ │ ├── cleaner.py
-│ ├── database/
-│ │ ├── init.py
-│ │ └── db_manager.py
-│ ├── log_utils/
-│ │ ├── init.py
-│ │ └── logger.py
-│ ├── object_detection/
-│ │ ├── __init__.py
-│ │ ├── detector.py
-│ │ ├── setup.py
-│ │ └── main.py
-│ └── run_api.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── database.py
+│   │   ├── models.py
+│   │   ├── schemas.py
+│   │   ├── crud.py
+│   │   └── main.py
+│   │
+│   ├── cleaning/
+│   │   ├── __init__.py
+│   │   └── cleaner.py
+│   │
+│   ├── database/
+│   │   ├── __init__.py
+│   │   └── db_manager.py
+│   │
+│   ├── log_utils/
+│   │   ├── __init__.py
+│   │   └── logger.py
+│   │
+│   ├── object_detection/
+│   │   ├── __init__.py
+│   │   ├── detector.py
+│   │   ├── setup.py
+│   │   └── main.py
+│   │
+│   └── run_api.py
+│
 ├── data/
-│ ├── raw/
-│ │ ├── messages/
-│ │ └── images/
-│ ├── processed/
-│ └── media/
+│   ├── raw/
+│   │   ├── messages/
+│   │   └── images/
+│   ├── processed/
+│   └── media/
+│
 ├── logs/
 ├── models/
-│ ├── run_api.py
 ├── .env
+├── .gitignore
+├── README.md
 └── requirements.txt
 
 ## Features
