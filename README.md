@@ -2,52 +2,6 @@
 
 This project collects, processes, and analyzes medical data from Ethiopian Telegram channels, performs object detection on medical images, and exposes the data through a REST API.
 
-## Project Structure
-
-ethiopian_medical_data/
-│
-├── src/
-│   ├── api/
-│   │   ├── __init__.py
-│   │   ├── database.py
-│   │   ├── models.py
-│   │   ├── schemas.py
-│   │   ├── crud.py
-│   │   └── main.py
-│   │
-│   ├── cleaning/
-│   │   ├── __init__.py
-│   │   └── cleaner.py
-│   │
-│   ├── database/
-│   │   ├── __init__.py
-│   │   └── db_manager.py
-│   │
-│   ├── log_utils/
-│   │   ├── __init__.py
-│   │   └── logger.py
-│   │
-│   ├── object_detection/
-│   │   ├── __init__.py
-│   │   ├── detector.py
-│   │   ├── setup.py
-│   │   └── main.py
-│   │
-│   └── run_api.py
-│
-├── data/
-│   ├── raw/
-│   │   ├── messages/
-│   │   └── images/
-│   ├── processed/
-│   └── media/
-│
-├── logs/
-├── models/
-├── .env
-├── .gitignore
-├── README.md
-└── requirements.txt
 
 ## Features
 
