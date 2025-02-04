@@ -1,0 +1,10 @@
+telethon
+python-dotenv
+pandas
+pillow
+psycopg2-binary
+opencv-python
+torch 
+torchvision
+
+

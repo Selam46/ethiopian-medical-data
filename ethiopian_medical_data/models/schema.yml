@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: public  # your database schema
+    tables:
+      - name: cleaned_messages
+        description: "Raw messages from Telegram channels"
+
+models:
+  - name: stg_messages
+    description: "Cleaned and standardized message data"
+    columns:
+      - name: message_id
+        description: "The unique identifier for the message"
+        tests:
+          - unique
+          - not_null 
